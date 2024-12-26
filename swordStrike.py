@@ -9,4 +9,4 @@ class swordStrike(skills):
         DAMAGE_MULTIPLIER = 1.8
         DEFENSE_REDUCTION = 2
         damage = ((playerAttack + self.strength) * DAMAGE_MULTIPLIER) - (monsterDefense - DEFENSE_REDUCTION)
-        return max(0, damage)  # Ensure damage is not negative``~`  `
+        return max(0, damage) 
